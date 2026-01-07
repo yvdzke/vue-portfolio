@@ -602,9 +602,8 @@ export default {
           desc: 'Platform streaming video on demand yang menyediakan berbagai konten menarik untuk pengguna.',
           category: [
             { id: 1, name: 'Website' },
-            { id: 2, name: 'Next.Js' },
-            { id: 3, name: 'React' },
-            { id: 3, name: 'Express' }
+            { id: 2, name: 'Express' },
+            { id: 3, name: 'React' }
           ],
           link: 'https://yudzflix.vercel.app/movie'
         }
