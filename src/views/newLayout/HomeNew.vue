@@ -163,8 +163,8 @@
                       <strong>Vue</strong>
                     </div>
                   </div>
-                  <!-- Laravel -->
-                  <div class="skill-card border-gradient-red">
+                  <!-- ReactJs -->
+                  <div class="skill-card border-gradient-cyan">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
                       width="32"
@@ -270,12 +270,15 @@
                       <strong>Bootstrap</strong>
                     </div>
                   </div>
-                  <!-- <div class="skill-card border-gradient-cyan">
-                    <img src="https://icon.icepanel.io/Technology/svg/Veutify.svg" width="32" />
+                  <div class="skill-card border-gradient-red">
+                    <img
+                      src="https://images.icon-icons.com/2429/PNG/512/figma_logo_icon_147289.png"
+                      width="32"
+                    />
                     <div>
-                      <strong>Vuetify</strong>
+                      <strong>Figma</strong>
                     </div>
-                  </div> -->
+                  </div>
                 </div>
               </div>
             </div>
@@ -397,7 +400,7 @@
     style="background-color: #0e0e10"
   >
     <div class="container py-5">
-      <h2 class="text-gradient text-center fw-bold mb-3">Project</h2>
+      <h2 class="text-gradient text-center fw-bold mb-3">Personal Project</h2>
       <p class="text-center mb-5">Recent project participated</p>
 
       <div
@@ -542,8 +545,15 @@ export default {
         {
           year: '2019 - 2020',
           school: 'RISTEK NUSANTARA',
-          degree: '-',
+          degree: 'ILMU PENGETAHUAN SOSIAL',
           desc: ' Sekolah Menengah Atas ',
+          color: '#a855f7'
+        },
+        {
+          year: '2022 - 2026',
+          school: 'ITBS SWADHARMA',
+          degree: 'TEKNIK INFORMATIKA',
+          desc: ' Menjalani pendidikan tinggi di bidang Teknik Informatika untuk memperdalam pengetahuan dan keterampilan dalam pengembangan perangkat lunak serta teknologi informasi.',
           color: '#a855f7'
         }
         // {
@@ -556,6 +566,13 @@ export default {
       ],
       career: [
         {
+          year: '2018',
+          company: 'Youtube',
+          title: 'Youtuber Gaming',
+          desc: 'Buat dan kelola konten gaming di YouTube, membangun komunitas penggemar yang aktif.',
+          color: '#ec4899'
+        },
+        {
           year: '2021',
           company: 'Just Dero',
           title: 'Video Editor',
@@ -566,7 +583,7 @@ export default {
           year: '2025',
           company: 'Bootcamp Harisenin',
           title: 'Fullstack Web Developer',
-          desc: 'Mempelajari Pengembangan Website dari Preperasi sampai ke Development.',
+          desc: 'Menyelesaikan program bootcamp intensif untuk menjadi Fullstack Web Developer.',
           color: '#22c55e'
         }
         // {
@@ -582,14 +599,14 @@ export default {
           id: 1,
           img: hiwaya,
           title: 'Yvdzflix',
-          desc: 'Hiwaya bantu usaha kamu go digital tanpa ribet. Gak perlu tim IT, semua udah kami siapin — lebih murah, efisien, dan langsung bisa jalan.',
+          desc: 'Platform streaming video on demand yang menyediakan berbagai konten menarik untuk pengguna.',
           category: [
             { id: 1, name: 'Website' },
-            { id: 2, name: 'Landing Page' },
-            { id: 3, name: 'Vue' },
-            { id: 3, name: 'Adonis.js' }
+            { id: 2, name: 'Next.Js' },
+            { id: 3, name: 'React' },
+            { id: 3, name: 'Express' }
           ],
-          link: 'https://hiwaya.id'
+          link: 'https://yudzflix.vercel.app/movie'
         }
         // {
         //   id: 1,
@@ -1206,11 +1223,11 @@ iconify-icon {
 }
 
 .border-gradient-red {
-  border-color: #06b6d4;
+  border-color: #fc0606;
 }
 
 .border-gradient-pink {
-  border-color: #ec4899;
+  border-color: #06b6d4;
 }
 
 .border-gradient-indigo {
