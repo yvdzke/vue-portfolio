@@ -2,7 +2,7 @@
   <nav class="navbar fixed-top navbar-expand-lg glass-nav px-4 py-2 mx-auto">
     <div class="container-fluid px-3">
       <!-- Brand -->
-      <a class="navbar-brand gradient-logo fw-bold me-auto" href="#home">YVDZKE</a>
+      <a class="navbar-brand gradient-logo fw-bold me-auto" href="#home">KE</a>
 
       <!-- Toggle button for mobile -->
       <!-- Toggle button hanya muncul di mobile -->
