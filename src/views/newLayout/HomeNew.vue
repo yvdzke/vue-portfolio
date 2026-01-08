@@ -272,7 +272,7 @@
                   </div>
                   <div class="skill-card border-gradient-red">
                     <img
-                      src="https://images.icon-icons.com/2429/PNG/512/figma_logo_icon_147289.png"
+                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767849481/20260108_120856_xwpbyv.png"
                       width="32"
                     />
                     <div>
