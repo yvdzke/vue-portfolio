@@ -156,7 +156,7 @@
                   <!-- Vue -->
                   <div class="skill-card border-gradient-green">
                     <img
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767860977/vue_s7lpbz.png"
                       width="32"
                     />
                     <div>
@@ -166,7 +166,7 @@
                   <!-- ReactJs -->
                   <div class="skill-card border-gradient-cyan">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767860977/react_zsy1dm.png"
                       width="32"
                     />
                     <div>
@@ -199,7 +199,7 @@
                 <div class="accordion-body d-flex flex-wrap gap-3">
                   <div class="skill-card border-gradient-yellow">
                     <img
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767861753/js_jjfd3p.png"
                       width="32"
                     />
                     <div>
@@ -217,7 +217,7 @@
                   </div> -->
                   <div class="skill-card border-gradient-blue">
                     <img
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767861753/typescript_g8yygf.png"
                       width="32"
                     />
                     <div>
@@ -272,7 +272,7 @@
                   </div>
                   <div class="skill-card border-gradient-red">
                     <img
-                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767849481/20260108_120856_xwpbyv.png"
+                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767860620/Figma_xijfjm.png"
                       width="32"
                     />
                     <div>
@@ -304,7 +304,7 @@
                 <div class="accordion-body d-flex flex-wrap gap-3">
                   <div class="skill-card border-gradient-gray">
                     <img
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767861753/git_lncvmz.png"
                       width="32"
                     />
                     <div>
@@ -400,7 +400,7 @@
     style="background-color: #0e0e10"
   >
     <div class="container py-5">
-      <h2 class="text-gradient text-center fw-bold mb-3">Personal Project</h2>
+      <h2 class="text-gradient text-center fw-bold mb-3">Personal Projects</h2>
       <p class="text-center mb-5">Recent project participated</p>
 
       <div
@@ -544,14 +544,14 @@ export default {
         // },
         {
           year: '2019 - 2020',
-          school: 'RISTEK NUSANTARA',
+          school: 'Ristek Nusantara',
           degree: 'ILMU PENGETAHUAN SOSIAL',
           desc: ' Sekolah Menengah Atas ',
           color: '#a855f7'
         },
         {
           year: '2022 - 2026',
-          school: 'ITBS SWADHARMA',
+          school: 'ITBS Swadharma',
           degree: 'TEKNIK INFORMATIKA',
           desc: ' Menjalani pendidikan tinggi di bidang Teknik Informatika untuk memperdalam pengetahuan dan keterampilan dalam pengembangan perangkat lunak serta teknologi informasi.',
           color: '#a855f7'
