@@ -173,6 +173,15 @@
                       <strong>React</strong>
                     </div>
                   </div>
+                  <div class="skill-card border-gradient-gray">
+                    <img
+                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767949095/nextjs_yz3ilh.png"
+                      width="32"
+                    />
+                    <div>
+                      <strong>Next.js</strong>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -203,22 +212,22 @@
                 <div class="accordion-body d-flex flex-wrap gap-3">
                   <div class="skill-card border-gradient-blue">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/500px-Postgresql_elephant.svg.png"
+                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767950499/postgresql_rtlf74.png"
                       width="32"
                     />
                     <div>
                       <strong>PostgreSQL</strong>
                     </div>
                   </div>
-                  <!-- <div class="skill-card border-gradient-bluepk">
+                  <div class="skill-card border-gradient-orange">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.png"
+                      src="https://res.cloudinary.com/dvym5vxsw/image/upload/v1767949094/mysql_s1wwss.png"
                       width="32"
                     />
                     <div>
                       <strong>MySQL</strong>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- <div class="skill-card border-gradient-green">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
@@ -1279,6 +1288,9 @@ iconify-icon {
 
 .border-gradient-red {
   border-color: #fc0606;
+}
+.border-gradient-orange {
+  border-color: #ff9100;
 }
 
 .border-gradient-pink {
