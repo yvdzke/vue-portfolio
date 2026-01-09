@@ -203,7 +203,7 @@
                 <div class="accordion-body d-flex flex-wrap gap-3">
                   <div class="skill-card border-gradient-blue">
                     <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/500px-Postgresql_elephant.svg.png"
                       width="32"
                     />
                     <div>
