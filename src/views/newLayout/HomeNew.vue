@@ -177,6 +177,61 @@
               </div>
             </div>
 
+            <!-- Databases -->
+            <div class="accordion-item skill-category">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-db"
+                  aria-expanded="false"
+                >
+                  <iconify-icon
+                    icon="material-symbols:database"
+                    width="28"
+                    height="28"
+                  ></iconify-icon
+                  >&nbsp; Databases
+                </button>
+              </h2>
+              <div
+                id="flush-db"
+                class="accordion-collapse collapse"
+                data-bs-parent="#techAccordion"
+              >
+                <div class="accordion-body d-flex flex-wrap gap-3">
+                  <div class="skill-card border-gradient-blue">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+                      width="32"
+                    />
+                    <div>
+                      <strong>PostgreSQL</strong>
+                    </div>
+                  </div>
+                  <!-- <div class="skill-card border-gradient-bluepk">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.png"
+                      width="32"
+                    />
+                    <div>
+                      <strong>MySQL</strong>
+                    </div>
+                  </div> -->
+                  <!-- <div class="skill-card border-gradient-green">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
+                      width="32"
+                    />
+                    <div>
+                      <strong>MongoDB</strong>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+
             <!-- Languages -->
             <div class="accordion-item skill-category">
               <h2 class="accordion-header">
@@ -603,23 +658,24 @@ export default {
           category: [
             { id: 1, name: 'Website' },
             { id: 2, name: 'Express' },
-            { id: 3, name: 'React' }
+            { id: 3, name: 'React' },
+            { id: 4, name: 'Redux' }
           ],
           link: 'https://yudzflix.vercel.app/movie'
+        },
+        {
+          id: 2,
+          img: 'https://res.cloudinary.com/dvym5vxsw/image/upload/v1767920240/Screenshot_2026-01-09_075213_nhb51v.png',
+          title: 'Merchant',
+          desc: 'Aplikasi web e-commerce yang memungkinkan pengguna untuk menjelajahi, membeli, dan menjual produk secara online dengan mudah dan aman.',
+          category: [
+            { id: 1, name: 'Website' },
+            { id: 2, name: 'ReactJs' },
+            { id: 3, name: 'Axios' },
+            { id: 3, name: 'Redux' }
+          ],
+          link: 'https://yvdzke-products.vercel.app/products'
         }
-        // {
-        //   id: 1,
-        //   img: trax,
-        //   title: 'TRAX',
-        //   desc: 'Consultant Company, PT Transforma Dinamika Unggul, bergerak di bidang Human Resource',
-        //   category: [
-        //     { id: 1, name: 'Website' },
-        //     { id: 2, name: 'Landing Page' },
-        //     { id: 3, name: 'Vue' },
-        //     { id: 3, name: 'Adonis.js' }
-        //   ],
-        //   link: 'https://trax.co.id'
-        // },
         // {
         //   id: 1,
         //   img: Oscar,
