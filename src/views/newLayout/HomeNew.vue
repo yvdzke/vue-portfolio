@@ -607,7 +607,7 @@ export default {
         //   color: '#a855f7'
         // },
         {
-          year: '2019 - 2020',
+          year: '2018 - 2019',
           school: 'Ristek Nusantara',
           degree: 'ILMU PENGETAHUAN SOSIAL',
           desc: ' Sekolah Menengah Atas ',
