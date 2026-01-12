@@ -465,7 +465,7 @@
   >
     <div class="container py-5">
       <h2 class="text-gradient text-center fw-bold mb-3">Personal Projects</h2>
-      <p class="text-center mb-5">Recent project participated</p>
+      <p class="text-center mb-5">Recent Projects</p>
 
       <div
         id="projectCarousel"
@@ -577,11 +577,11 @@ import Navbar from '@/components/NavbarNew.vue'
 import Footer from '@/components/FooterNew.vue'
 import { gsap } from 'gsap'
 import Saya from '@/assets/FarrAAU.png'
-import AAU from '@/assets/AAUicon.png'
-import Oscar from '@/assets/OscarBookstore.png'
-import Yadi from '@/assets/YaDipinjam.png'
-import trax from '@/assets/trax.png'
-import hiwaya from '@/assets/hiwaya.png'
+// import AAU from '@/assets/AAUicon.png'
+// import Oscar from '@/assets/OscarBookstore.png'
+// import Yadi from '@/assets/YaDipinjam.png'
+// import trax from '@/assets/trax.png'
+// import hiwaya from '@/assets/hiwaya.png'
 
 export default {
   name: 'Home',
@@ -647,7 +647,7 @@ export default {
           year: '2025',
           company: 'Bootcamp Harisenin',
           title: 'Fullstack Web Developer',
-          desc: 'Menyelesaikan program bootcamp intensif untuk menjadi Fullstack Web Developer.',
+          desc: 'IGLE, SCRUM, SDLC, REST API, MVC, Frontend & Backend Development dengan Vue.js, ReactJS, Node.js, Express, dan Database SQL & NoSQL.',
           color: '#22c55e'
         }
         // {
@@ -661,14 +661,14 @@ export default {
       projects: [
         {
           id: 1,
-          img: hiwaya,
-          title: 'Yvdzflix',
-          desc: 'Platform streaming video on demand yang menyediakan berbagai konten menarik untuk pengguna.',
+          img: 'https://res.cloudinary.com/dvym5vxsw/image/upload/v1768190541/ogyvdzflix_jtwamy.png',
+          title: 'Yudzflix',
+          desc: 'Project Fullstack personal yang aku buat pakai ReactJS + Vite, Express (Routes, Middleware, Nodemailer etc.), Style Tailwind CSS, Store Redux Toolkit, Atomic Design, Nested Component, etc.',
           category: [
-            { id: 1, name: 'Website' },
+            { id: 1, name: 'ReactJs' },
             { id: 2, name: 'Express' },
-            { id: 3, name: 'React' },
-            { id: 4, name: 'Redux' }
+            { id: 3, name: 'Tailwind CSS' },
+            { id: 4, name: 'Figma Design' }
           ],
           link: 'https://yudzflix.vercel.app/movie'
         },
@@ -676,11 +676,10 @@ export default {
           id: 2,
           img: 'https://res.cloudinary.com/dvym5vxsw/image/upload/v1767920240/Screenshot_2026-01-09_075213_nhb51v.png',
           title: 'Merchant',
-          desc: 'Aplikasi web e-commerce yang memungkinkan pengguna untuk menjelajahi, membeli, dan menjual produk secara online dengan mudah dan aman.',
+          desc: 'Project personal tambahan sama seperti Yudzflix, Project ini untuk latihan ReactJs Libary seperti useState, useEffect, useContext, dan lain-lain.',
           category: [
-            { id: 1, name: 'Website' },
-            { id: 2, name: 'ReactJs' },
-            { id: 3, name: 'Axios' },
+            { id: 1, name: 'ReactJs' },
+            { id: 2, name: 'Axios' },
             { id: 3, name: 'Redux' }
           ],
           link: 'https://yvdzke-products.vercel.app/products'
