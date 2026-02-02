@@ -640,14 +640,14 @@ export default {
           year: '2021',
           company: 'Just Dero',
           title: 'Video Editor',
-          desc: 'Menghasilkan konten video berkualitas tinggi untuk YouTube channel Just Dero.',
+          desc: 'I worked as a video editor, creating and editing videos for Just Dero Youtube Channel.',
           color: '#ec4899'
         },
         {
           year: '2025',
           company: 'Bootcamp Harisenin',
           title: 'Fullstack Web Developer',
-          desc: 'IGLE, SCRUM, SDLC, REST API, MVC, Frontend & Backend Development dengan Vue.js, ReactJS, Node.js, Express, dan Database SQL & NoSQL.',
+          desc: 'Course Fullstack Web Developer di Harisenin.com dari Planing hingga Development',
           color: '#22c55e'
         }
         // {
@@ -661,12 +661,12 @@ export default {
       projects: [
         {
           id: 1,
-          img: 'https://res.cloudinary.com/dvym5vxsw/image/upload/v1768190541/ogyvdzflix_jtwamy.png',
+          img: 'https://res.cloudinary.com/dvym5vxsw/image/upload/v1770026539/Screenshot_2026-02-02_170158_o6mvlb.png',
           title: 'Yudzflix',
-          desc: 'Project Fullstack personal yang aku buat pakai ReactJS + Vite, Express (Routes, Middleware, Nodemailer etc.), Style Tailwind CSS, Store Redux Toolkit, Atomic Design, Nested Component, etc.',
+          desc: 'Personal project to improve my fullstack skills.',
           category: [
-            { id: 1, name: 'ReactJs' },
-            { id: 2, name: 'Express' },
+            { id: 1, name: 'ReactJs (Express, Redux, Atomic Design)' },
+            { id: 2, name: 'PostgreSQL' },
             { id: 3, name: 'Tailwind CSS' },
             { id: 4, name: 'Figma Design' }
           ],
@@ -674,15 +674,14 @@ export default {
         },
         {
           id: 2,
-          img: 'https://res.cloudinary.com/dvym5vxsw/image/upload/v1767920240/Screenshot_2026-01-09_075213_nhb51v.png',
-          title: 'Merchant',
-          desc: 'Project personal tambahan sama seperti Yudzflix, Project ini untuk latihan ReactJs Libary seperti useState, useEffect, useContext, dan lain-lain.',
+          img: 'https://res.cloudinary.com/dvym5vxsw/image/upload/v1770026236/Screenshot_2026-02-02_165305_koqbet.png',
+          title: 'Practice Redux Toolkit',
+          desc: 'Focus on Redux Toolkit',
           category: [
             { id: 1, name: 'ReactJs' },
-            { id: 2, name: 'Axios' },
-            { id: 3, name: 'Redux' }
+            { id: 2, name: 'Redux Toolkit' }
           ],
-          link: 'https://yvdzke-products.vercel.app/products'
+          link: 'https://practice-reduxtoolkit.vercel.app/'
         }
         // {
         //   id: 1,
